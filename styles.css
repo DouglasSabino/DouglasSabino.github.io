@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4f4f4f;
+}
+
+.header{
+    background-image: url("imagem/capa.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: 30% 100%;
+}
+
+.header img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.header-picture{
+    margin-left: 800px;
+    padding-top: 50px;
+}
+
+.header h1{
+    color: #fff;
+    margin-left: 800px;
+}
+
+.hard-skills,.soft-skills{
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.skills li{
+    margin-bottom: 10px;
+}
+
+.skills li:hover{
+    color: #fff;
+}
+
+.messagem p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.messagem a{
+    text-decoration: none;
+    color: #000;
+}
+
+.messagem a:hover{
+    color: #fff;
+}
+
+.social-media p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.social-media img{
+    width: 90px;
+}
+
+.social-media h3{
+    text-align: center;
+}
+
+.linkedin, .github{
+    display: inline-block;
+    margin-left: 550px;
+    margin-bottom: 60px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media a:hover{
+    color: #fff;
+}
+
+.footer{
+    background-image: url("imagem/capa.jpeg");
+    height: 100px;
+    background-size: cover;
+    background-position: 30% 100%;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+}
